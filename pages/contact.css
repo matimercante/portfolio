@@ -1,0 +1,69 @@
+*{
+  font-family: 'Poppins';
+}
+
+body{
+  box-sizing: border-box;
+  margin:0
+}
+.h1-pages{
+  margin:0;
+  color: #FFF;
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+}
+
+.contact{
+  background-color: black;
+  padding: 100px;
+}
+
+.contact__page{
+  height: 600px;
+}
+
+.contact__contenedor-principal{
+  display: grid;
+  grid-template-columns: 1fr 50%;
+}
+
+.contact__contenedor-h1{
+  text-align: left;
+}
+
+.h1-pages.h1-footer {
+  text-align: left;
+}
+
+.contact__contenedor-form{
+  width: 100%;
+}
+
+@media (max-width:960px){
+  .contact{
+    padding: 40px;
+  }
+  
+  
+  .contact__contenedor-principal{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    /* width: 100%; */
+  }
+
+  .h1-pages{
+    font-size: 42px;
+  }    
+
+  .h1-pages.h1-footer {
+    text-align: center;
+    margin: 0 auto;
+    
+  }
+
+  .contact__contenedor-form{
+    width: 100%;
+  }
+}

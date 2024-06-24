@@ -1,0 +1,51 @@
+.footer{
+  padding: 100px;
+  background-color: black;
+
+}
+
+.footer__contenedor-principal{
+  display: grid;
+  justify-content: center;
+}
+
+.footer__contenedor-logo{
+width: 230px;
+margin: 0 auto;
+margin-bottom: 50px;
+}
+
+.footer_contenedor-linkPages{
+  display: flex;
+  gap: 80px;
+  margin: 0 auto;
+  margin-bottom:50px ;
+}
+
+.footer__contenedor-page{
+
+}
+
+.footer__link-img{
+  vertical-align: middle;
+}
+
+.footer__link-pages{
+  color: white;
+  text-decoration: none;
+}
+
+.footer__contenedor-mediaLinks{
+margin: 0 auto;
+}
+
+.footer__social-link{
+  margin: 5px;
+}
+
+@media (max-width:960px){
+  .footer_contenedor-linkPages{
+    display: grid;
+    gap: 40px;
+  }
+}

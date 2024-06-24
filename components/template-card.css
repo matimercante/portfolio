@@ -1,0 +1,28 @@
+.contenedor-card{
+  border: solid 2px white;
+  border-radius: 20px;
+  max-width: 360px;
+  padding: 40px 30px;
+  display: grid;
+  gap: 20px;
+
+}
+
+.card__img{
+max-width: 260px;
+margin: 0 auto;
+
+}
+
+.card__h2{
+  color: white;
+  text-align: center;
+  margin: 0;
+  font-size: 33px;
+  font-weight: 700;
+}
+
+.card__text{
+  color: white;
+  margin: 0 auto;
+}

@@ -1,0 +1,32 @@
+*{
+  font-family: 'Poppins';
+}
+
+body{
+  box-sizing: border-box;
+  margin:0
+}
+
+.h1-pages{
+  margin:0;
+  color: #FFF;
+font-size: 64px;
+font-weight: 700;
+text-align: center;
+}
+
+@media (max-width:960px){
+  .h1-pages{
+    font-size: 42px;
+  }    
+}
+
+.text{
+  color: white;
+font-size: 18px;
+font-weight: 400;
+}
+
+.text-changeColor{
+  color: rgb(204, 140, 140);
+}

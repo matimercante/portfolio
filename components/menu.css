@@ -1,0 +1,41 @@
+@media (max-width:960px){
+.menu{
+  position: absolute;
+  /* left: 20%; */
+  right: 20%;
+  top:20vh;
+  background-color: #000;
+  display: none;
+  width: 60%;
+  padding: 40px;
+  opacity: 80%;
+}
+
+  .header__nav-mobile{
+    display: grid;
+    justify-content: center;
+    gap: 50px;
+  }
+  .header__link{
+    font-size:30px;
+    text-align: center;
+  }
+  
+  .menu__button-close{
+    position: absolute;
+    right: 48px;
+    top: 10px;
+  }
+}
+
+@media (min-width:961px){
+  .menu{
+    display:none
+  }
+  .header__nav-mobile{
+    display: none;
+  }
+  .menu__button-close{
+    display:none
+  }
+}

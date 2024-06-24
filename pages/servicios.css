@@ -1,0 +1,47 @@
+*{
+  font-family: 'Poppins';
+}
+
+body{
+  box-sizing: border-box;
+  margin:0
+}
+
+.text{
+  color: white;
+font-size: 18px;
+font-weight: 400;
+}
+
+.text-changeColor{
+  color: rgb(204, 140, 140);
+}
+
+.services__cards .h1-pages{
+  display: none;
+}
+
+.services__contenedor-principal{
+  background-color: black;
+  padding: 100px;
+
+}
+
+.services__card-contenedor{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  margin: 100px;
+
+}
+
+
+
+@media (max-width:960px){
+  .services__contenedor-principal{
+    padding: 20px;
+  }
+  .services__card-contenedor{
+    display: grid;
+  }
+}
